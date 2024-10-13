@@ -4,8 +4,7 @@ import Marie from "../../assets/images/Marie.jpeg";
 import IceSkating from "../../assets/images/IceSkating.jpeg";
 import Vintage from "../../assets/images/Vintage.jpg";
 import Button from "../ExploreButton/ExploreButton";
-
-const StyleCard = () => {
+const KeepExploring = () => {
   const overlayStyles = {
     position: "absolute",
     top: 0,
@@ -22,11 +21,10 @@ const StyleCard = () => {
     <>
       <div className="mt-[100px] flex justify-center items-center">
         <h1 className="text-center text-black text-4xl font-normal">
-          What's Your Style
+          Keep Exploring ...
         </h1>
       </div>
       <div className="flex flex-col sm:flex-row mt-[80px] items-center justify-center">
-        {/* Card 1 */}
         <div className="w-full sm:w-[290px] mx-4 h-96 rounded-lg relative inline-block overflow-hidden cursor-pointer mb-4 sm:mb-0">
           <div
             className="relative h-full"
@@ -206,4 +204,4 @@ const StyleCard = () => {
   );
 };
 
-export default StyleCard;
+export default KeepExploring;

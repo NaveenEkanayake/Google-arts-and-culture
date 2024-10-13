@@ -9,6 +9,12 @@ import GeomatricAbstraction from "../Components/GeomatricAbstraction/GeomatricAb
 import FollowUsCard from "../Components/FollowUsCard/FollowUsCard";
 import Carasoule from "../Components/Carasoule/Carasoule";
 import CastoffCard from "../Components/CastOffCard/CastoffCard";
+import RoarCard from "../Components/HearThemRoar/RoarCard";
+import StepinsdeGallery from "../Components/StepinsideGallery/StepinsdeGallery";
+import OnlineExhibit from "../Components/OnlineExhibit/OnlineExhibit";
+import Festivels from "../Components/Festivels/Festivels";
+import DiscoverArtist from "../Components/DiscoverArtist/DiscoverArtist";
+import KeepExploring from "../Components/keepExploring/KeepExploring";
 
 const Home = () => {
   return (
@@ -23,6 +29,12 @@ const Home = () => {
       <FollowUsCard />
       <Carasoule />
       <CastoffCard />
+      <RoarCard />
+      <StepinsdeGallery />
+      <OnlineExhibit />
+      <Festivels />
+      <DiscoverArtist />
+      <KeepExploring />
     </>
   );
 };
